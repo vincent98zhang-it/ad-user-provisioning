@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="416" viewBox="0 0 900 416">
+<rect width="900" height="416" rx="8" fill="#012456"/>
+<rect width="900" height="34" rx="8" fill="#1f1f1f"/><rect y="20" width="900" height="14" fill="#1f1f1f"/>
+<text x="14" y="22" font-family="Segoe UI,Arial,sans-serif" font-size="13" fill="#ddd">Administrator: Windows PowerShell — DC01</text>
+<text x="820" y="22" font-family="Segoe UI,Arial" font-size="14" fill="#aaa">—   ☐   ✕</text>
+<text x="16" y="56" font-family="Consolas,'Cascadia Mono','Courier New',monospace" font-size="14" fill="#EEEDF0" xml:space="preserve">PS C:\Scripts&gt; .\New-LabUsers.ps1 -CsvPath .\new_hires.csv</text>
+<text x="16" y="78" font-family="Consolas,'Cascadia Mono','Courier New',monospace" font-size="14" fill="#C0C0C0" xml:space="preserve">Temporary password for new users: ************</text>
+<text x="16" y="100" font-family="Consolas,'Cascadia Mono','Courier New',monospace" font-size="14" fill="#7CFC9A" xml:space="preserve">CREATED  row 2   jtran      OU=IT, group IT-Staff</text>
+<text x="16" y="122" font-family="Consolas,'Cascadia Mono','Courier New',monospace" font-size="14" fill="#7CFC9A" xml:space="preserve">CREATED  row 3   mgarcia    OU=HR, group HR-Staff</text>
+<text x="16" y="144" font-family="Consolas,'Cascadia Mono','Courier New',monospace" font-size="14" fill="#7CFC9A" xml:space="preserve">CREATED  row 4   blopez     OU=Sales, group Sales-Staff</text>
+<text x="16" y="166" font-family="Consolas,'Cascadia Mono','Courier New',monospace" font-size="14" fill="#FFE66D" xml:space="preserve">SKIPPED  row 5   spatel     Already exists</text>
+<text x="16" y="188" font-family="Consolas,'Cascadia Mono','Courier New',monospace" font-size="14" fill="#FF8080" xml:space="preserve">ERROR    row 6   kortiz     Unknown department 'Mktg'</text>
+<text x="16" y="210" font-family="Consolas,'Cascadia Mono','Courier New',monospace" font-size="14" fill="#C0C0C0" xml:space="preserve">Done. Log saved to C:\Scripts\logs\provision_2026-12-06_1412.csv</text>
+<text x="16" y="232" font-family="Consolas,'Cascadia Mono','Courier New',monospace" font-size="14" fill="#EEEDF0" xml:space="preserve">PS C:\Scripts&gt; Get-ADGroupMember HR-Staff | Select-Object Name, SamAccountName</text>
+<text x="16" y="254" font-family="Consolas,'Cascadia Mono','Courier New',monospace" font-size="14" fill="#C0C0C0" xml:space="preserve"></text>
+<text x="16" y="276" font-family="Consolas,'Cascadia Mono','Courier New',monospace" font-size="14" fill="#C0C0C0" xml:space="preserve">Name           SamAccountName</text>
+<text x="16" y="298" font-family="Consolas,'Cascadia Mono','Courier New',monospace" font-size="14" fill="#C0C0C0" xml:space="preserve">----           --------------</text>
+<text x="16" y="320" font-family="Consolas,'Cascadia Mono','Courier New',monospace" font-size="14" fill="#F5F5F5" xml:space="preserve">Linda Garcia   lgarcia</text>
+<text x="16" y="342" font-family="Consolas,'Cascadia Mono','Courier New',monospace" font-size="14" fill="#F5F5F5" xml:space="preserve">Maria Garcia   mgarcia</text>
+<text x="16" y="364" font-family="Consolas,'Cascadia Mono','Courier New',monospace" font-size="14" fill="#EEEDF0" xml:space="preserve">PS C:\Scripts&gt; _</text>
+</svg>
