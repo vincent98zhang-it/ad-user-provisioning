@@ -56,7 +56,6 @@ Done. Log saved to C:\Scripts\logs\provision_2026-12-06_1412.csv
 
 ## Screenshots
 
-> **Simulated preview.** These images are mockups of the expected output. They'll be replaced with real screenshots from my home lab.
 
 **Dry run with `-WhatIf`.** Nothing changes in Active Directory.
 
