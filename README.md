@@ -54,15 +54,31 @@ ERROR    row 6   kortiz     Unknown department 'Mktg'
 Done. Log saved to C:\Scripts\logs\provision_2026-12-06_1412.csv
 ```
 
+## Screenshots
+
+> **Simulated preview.** These images are mockups of the expected output. They'll be replaced with real screenshots from my home lab.
+
+**Dry run with `-WhatIf`.** Nothing changes in Active Directory.
+
+![Dry run output](screenshots/dry-run.svg)
+
+**Real run.** Valid rows are created, an existing user is skipped, and a bad department is rejected.
+
+![Real run output](screenshots/real-run.svg)
+
+**Result in Active Directory Users and Computers.** The new user lands in the HR OU.
+
+![New user in the HR OU](screenshots/aduc-hr-ou.svg)
+
+**Log file.** Every row is recorded with its outcome.
+
+![Provisioning log](screenshots/log-file.svg)
+
 ## Design decisions
 
 - **`-ErrorAction Stop` on every AD cmdlet** so failures (like a group add) are caught and logged instead of silently reported as success.
 - **Department allow-list** so a typo in the CSV is rejected, not turned into a broken OU path.
 - **Dry run first.** `-WhatIf` is built in through `SupportsShouldProcess`.
-
-## Screenshots
-
-_Coming soon: screenshots from my home lab (ADUC before/after, dry run, log file)._
 
 ## Related
 
